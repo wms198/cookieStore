@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crunchy C</title>
+    <link href="./crunchy.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="bar" id="burger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div id="logo">
+        <h1>Crunchy C</h1>
+      </div>
+    </div>
+
+    <div class="cookies">
+      <div>
+        <h1>Classis Cookies</h1>
+        <h2>Classic and handmade cookies. Recall the memory of grandma.</h2>
+      </div>
+      <div class="image"><img src="Bilder/1.png" /></div>
+    </div>
+
+    <ul id="menu">
+      <li class="link"><a href="production.html">Production</a></li>
+      <li class="link"><a href="#" onclick="overlayOn()">Delilvery</a></li>
+      <li class="link"><a href="contactus.html">Contact Us</a></li>
+    </ul>
+
+    <div class="cookies">
+      <div>
+        <h1>Double Chocolade Cookies</h1>
+        <h2>Chocolade dough with dark chcoclade</h2>
+      </div>
+      <div class="image"><img src="Bilder/2.png" /></div>
+    </div>
+
+    <div class="cookies">
+      <div>
+        <h1>Matcha White Chocolade Cookies</h1>
+        <h2>
+          100% japanese Uji tea with white Chocolade handmade cookies.So
+          delectable and exotic.
+        </h2>
+      </div>
+      <div class="image"><img src="Bilder/3.png" /></div>
+    </div>
+
+    <div class="cookies">
+      <div>
+        <h1>Red Velvet Cookies</h1>
+        <h2>Traditional american recipe and handmade luxurious cookies.</h2>
+      </div>
+      <div class="image"><img src="Bilder/4.png" /></div>
+    </div>
+
+    <div class="cookies">
+      <div>
+        <h1>What else?</h1>
+        <h2>Coming soon...</h2>
+      </div>
+      <div class="image"><img src="Bilder/comingsoon.png" /></div>
+    </div>
+
+    <div id="overlay" onclick="overlayOff()">
+      <div class="deliveryMenu" id="popup">
+        <div>
+          <h3>What kind of the order would you like to place?</h3>
+        </div>
+
+        <div class="orderway">
+          <div class="deliverylist"></div>
+          <div class="deliverylist"></div>
+        </div>
+
+        <div class="orderway">
+          <div class="deliverylist"></div>
+          <div class="deliverylist"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
